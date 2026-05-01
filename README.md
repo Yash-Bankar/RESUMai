@@ -44,7 +44,7 @@ resume-anal/
 | Name | Required | Description |
 |------|----------|-------------|
 | `GEMINI_API_KEY` | Yes | Gemini API key |
-| `GEMINI_MODEL` | No | Override model (e.g., `gemini-1.5-flash`) |
+| `GEMINI_MODEL` | No | Override model (e.g., `gemini-3-flash`) |
 
 ## Setup
 1. Install dependencies:
@@ -54,7 +54,7 @@ resume-anal/
 2. Create `.env.local` (gitignored):
    ```bash
    GEMINI_API_KEY=your_key_here
-   GEMINI_MODEL=gemini-1.5-flash
+   GEMINI_MODEL=gemini-3-flash
    ```
 3. Start the dev server:
    ```bash
