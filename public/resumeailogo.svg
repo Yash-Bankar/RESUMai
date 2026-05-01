@@ -1,0 +1,31 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#121212" />
+  
+  <!-- Robot Head Outline -->
+  <path d="M150,250 
+           C150,180 200,160 250,160 
+           C300,160 350,180 350,250 
+           L360,250 
+           C390,250 390,320 350,320 
+           L150,320 
+           C110,320 110,250 140,250 Z" 
+        fill="none" stroke="#F5F1E6" stroke-width="8" stroke-linejoin="round" />
+  
+  <!-- Antenna -->
+  <line x1="250" y1="160" x2="250" y2="120" stroke="#F5F1E6" stroke-width="8" stroke-linecap="round" />
+  <circle cx="250" cy="110" r="10" fill="none" stroke="#F5F1E6" stroke-width="6" />
+  
+  <!-- Face Screen -->
+  <rect x="185" y="200" width="130" height="90" rx="20" fill="none" stroke="#F5F1E6" stroke-width="6" />
+  
+  <!-- Eyes -->
+  <path d="M215,235 Q225,225 235,235" fill="none" stroke="#F5F1E6" stroke-width="5" stroke-linecap="round" />
+  <path d="M265,235 Q275,225 285,235" fill="none" stroke="#F5F1E6" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Smile -->
+  <path d="M210,260 Q250,290 290,260" fill="none" stroke="#F5F1E6" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Text: RESUMAI -->
+  <text x="250" y="420" font-family="Arial, sans-serif" font-weight="bold" font-size="42" fill="#F5F1E6" text-anchor="middle" letter-spacing="15">RESUMAI</text>
+</svg>
